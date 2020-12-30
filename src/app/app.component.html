@@ -1,1 +1,6 @@
-<h1>Hellos</h1>
+<h1>{{title}}</h1>
+<h1>{{curr_num}}</h1>
+
+<app-game (num)="onStart($event)" ></app-game>
+<app-even [curr_number]="curr_num"></app-even>
+<app-odd [curr_number]="curr_num"></app-odd> 
